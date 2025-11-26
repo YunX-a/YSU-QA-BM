@@ -1,0 +1,328 @@
+[INFO|2025-09-14 12:10:05] tokenization_utils_base.py:2058 >> loading file tokenizer.model
+[INFO|2025-09-14 12:10:05] tokenization_utils_base.py:2058 >> loading file added_tokens.json
+[INFO|2025-09-14 12:10:05] tokenization_utils_base.py:2058 >> loading file special_tokens_map.json
+[INFO|2025-09-14 12:10:05] tokenization_utils_base.py:2058 >> loading file tokenizer_config.json
+[INFO|2025-09-14 12:10:05] tokenization_utils_base.py:2058 >> loading file tokenizer.json
+[INFO|2025-09-14 12:10:05] tokenization_utils_base.py:2058 >> loading file chat_template.jinja
+[INFO|2025-09-14 12:10:05] configuration_utils.py:697 >> loading configuration file D:\01Code\Project\Python\Orientation\ChatGLM\Model\chatglm3-6b-base\config.json
+[INFO|2025-09-14 12:10:05] configuration_utils.py:697 >> loading configuration file D:\01Code\Project\Python\Orientation\ChatGLM\Model\chatglm3-6b-base\config.json
+[INFO|2025-09-14 12:10:05] configuration_utils.py:771 >> Model config ChatGLMConfig {
+  "add_bias_linear": false,
+  "add_qkv_bias": true,
+  "apply_query_key_layer_scaling": true,
+  "apply_residual_connection_post_layernorm": false,
+  "architectures": [
+    "ChatGLMModel"
+  ],
+  "attention_dropout": 0.0,
+  "attention_softmax_in_fp32": true,
+  "auto_map": {
+    "AutoConfig": "configuration_chatglm.ChatGLMConfig",
+    "AutoModel": "modeling_chatglm.ChatGLMForConditionalGeneration",
+    "AutoModelForCausalLM": "modeling_chatglm.ChatGLMForConditionalGeneration",
+    "AutoModelForSeq2SeqLM": "modeling_chatglm.ChatGLMForConditionalGeneration",
+    "AutoModelForSequenceClassification": "modeling_chatglm.ChatGLMForSequenceClassification"
+  },
+  "bias_dropout_fusion": true,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "ffn_hidden_size": 13696,
+  "fp32_residual_connection": false,
+  "hidden_dropout": 0.0,
+  "hidden_size": 4096,
+  "kv_channels": 128,
+  "layernorm_epsilon": 1e-05,
+  "model_type": "chatglm",
+  "multi_query_attention": true,
+  "multi_query_group_num": 2,
+  "num_attention_heads": 32,
+  "num_layers": 28,
+  "original_rope": true,
+  "pad_token_id": 0,
+  "padded_vocab_size": 65024,
+  "post_layer_norm": true,
+  "pre_seq_len": null,
+  "prefix_projection": false,
+  "quantization_bit": 0,
+  "rmsnorm": true,
+  "seq_length": 32768,
+  "tie_word_embeddings": false,
+  "torch_dtype": "float16",
+  "transformers_version": "4.50.0",
+  "use_cache": true,
+  "vocab_size": 65024
+}
+
+[INFO|2025-09-14 12:10:05] tokenization_utils_base.py:2058 >> loading file tokenizer.model
+[INFO|2025-09-14 12:10:05] tokenization_utils_base.py:2058 >> loading file added_tokens.json
+[INFO|2025-09-14 12:10:05] tokenization_utils_base.py:2058 >> loading file special_tokens_map.json
+[INFO|2025-09-14 12:10:05] tokenization_utils_base.py:2058 >> loading file tokenizer_config.json
+[INFO|2025-09-14 12:10:05] tokenization_utils_base.py:2058 >> loading file tokenizer.json
+[INFO|2025-09-14 12:10:05] tokenization_utils_base.py:2058 >> loading file chat_template.jinja
+[INFO|2025-09-14 12:10:05] logging.py:143 >> Loading dataset ysu_dataset.json...
+[INFO|2025-09-14 12:10:37] configuration_utils.py:697 >> loading configuration file D:\01Code\Project\Python\Orientation\ChatGLM\Model\chatglm3-6b-base\config.json
+[INFO|2025-09-14 12:10:37] configuration_utils.py:697 >> loading configuration file D:\01Code\Project\Python\Orientation\ChatGLM\Model\chatglm3-6b-base\config.json
+[INFO|2025-09-14 12:10:37] configuration_utils.py:771 >> Model config ChatGLMConfig {
+  "add_bias_linear": false,
+  "add_qkv_bias": true,
+  "apply_query_key_layer_scaling": true,
+  "apply_residual_connection_post_layernorm": false,
+  "architectures": [
+    "ChatGLMModel"
+  ],
+  "attention_dropout": 0.0,
+  "attention_softmax_in_fp32": true,
+  "auto_map": {
+    "AutoConfig": "configuration_chatglm.ChatGLMConfig",
+    "AutoModel": "modeling_chatglm.ChatGLMForConditionalGeneration",
+    "AutoModelForCausalLM": "modeling_chatglm.ChatGLMForConditionalGeneration",
+    "AutoModelForSeq2SeqLM": "modeling_chatglm.ChatGLMForConditionalGeneration",
+    "AutoModelForSequenceClassification": "modeling_chatglm.ChatGLMForSequenceClassification"
+  },
+  "bias_dropout_fusion": true,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "ffn_hidden_size": 13696,
+  "fp32_residual_connection": false,
+  "hidden_dropout": 0.0,
+  "hidden_size": 4096,
+  "kv_channels": 128,
+  "layernorm_epsilon": 1e-05,
+  "model_type": "chatglm",
+  "multi_query_attention": true,
+  "multi_query_group_num": 2,
+  "num_attention_heads": 32,
+  "num_layers": 28,
+  "original_rope": true,
+  "pad_token_id": 0,
+  "padded_vocab_size": 65024,
+  "post_layer_norm": true,
+  "pre_seq_len": null,
+  "prefix_projection": false,
+  "quantization_bit": 0,
+  "rmsnorm": true,
+  "seq_length": 32768,
+  "tie_word_embeddings": false,
+  "torch_dtype": "float16",
+  "transformers_version": "4.50.0",
+  "use_cache": true,
+  "vocab_size": 65024
+}
+
+[INFO|2025-09-14 12:10:37] logging.py:143 >> Quantizing model to 4 bit with bitsandbytes.
+[INFO|2025-09-14 12:10:37] logging.py:143 >> KV cache is disabled during training.
+[INFO|2025-09-14 12:10:37] modeling_utils.py:1151 >> loading weights file D:\01Code\Project\Python\Orientation\ChatGLM\Model\chatglm3-6b-base\pytorch_model.bin.index.json
+[INFO|2025-09-14 12:10:37] modeling_utils.py:2170 >> Instantiating ChatGLMForConditionalGeneration model under default dtype torch.float16.
+[INFO|2025-09-14 12:10:37] configuration_utils.py:1139 >> Generate config GenerationConfig {
+  "eos_token_id": 2,
+  "pad_token_id": 0,
+  "use_cache": false
+}
+
+[INFO|2025-09-14 12:10:55] modeling_utils.py:4987 >> All model checkpoint weights were used when initializing ChatGLMForConditionalGeneration.
+
+[INFO|2025-09-14 12:10:55] modeling_utils.py:4995 >> All the weights of ChatGLMForConditionalGeneration were initialized from the model checkpoint at D:\01Code\Project\Python\Orientation\ChatGLM\Model\chatglm3-6b-base.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use ChatGLMForConditionalGeneration for predictions without further training.
+[INFO|2025-09-14 12:10:55] modeling_utils.py:4501 >> Generation config file not found, using a generation config created from the model config.
+[WARNING|2025-09-14 12:10:55] logging.py:154 >> You are using the old GC format, some features (e.g. BAdam) will be invalid.
+[INFO|2025-09-14 12:10:55] logging.py:143 >> Gradient checkpointing enabled.
+[INFO|2025-09-14 12:10:55] logging.py:143 >> Using vanilla attention implementation.
+[INFO|2025-09-14 12:10:55] logging.py:143 >> Upcasting trainable params to float32.
+[INFO|2025-09-14 12:10:55] logging.py:143 >> Fine-tuning method: LoRA
+[INFO|2025-09-14 12:10:55] logging.py:143 >> Found linear modules: query_key_value,dense_h_to_4h,dense,dense_4h_to_h
+[INFO|2025-09-14 12:10:55] logging.py:143 >> trainable params: 14,823,424 || all params: 6,258,407,424 || trainable%: 0.2369
+[INFO|2025-09-14 12:10:56] trainer.py:748 >> Using auto half precision backend
+[INFO|2025-09-14 12:10:56] trainer.py:2409 >> ***** Running training *****
+[INFO|2025-09-14 12:10:56] trainer.py:2410 >>   Num examples = 653
+[INFO|2025-09-14 12:10:56] trainer.py:2411 >>   Num Epochs = 3
+[INFO|2025-09-14 12:10:56] trainer.py:2412 >>   Instantaneous batch size per device = 2
+[INFO|2025-09-14 12:10:56] trainer.py:2415 >>   Total train batch size (w. parallel, distributed & accumulation) = 16
+[INFO|2025-09-14 12:10:56] trainer.py:2416 >>   Gradient Accumulation steps = 8
+[INFO|2025-09-14 12:10:56] trainer.py:2417 >>   Total optimization steps = 120
+[INFO|2025-09-14 12:10:56] trainer.py:2418 >>   Number of trainable parameters = 14,823,424
+[INFO|2025-09-14 12:11:48] logging.py:143 >> {'loss': 2.2214, 'learning_rate': 4.9786e-05, 'epoch': 0.12, 'throughput': 105.80}
+[INFO|2025-09-14 12:12:39] logging.py:143 >> {'loss': 1.9536, 'learning_rate': 4.9148e-05, 'epoch': 0.24, 'throughput': 107.99}
+[INFO|2025-09-14 12:13:29] logging.py:143 >> {'loss': 1.8146, 'learning_rate': 4.8097e-05, 'epoch': 0.37, 'throughput': 108.96}
+[INFO|2025-09-14 12:14:21] logging.py:143 >> {'loss': 1.7188, 'learning_rate': 4.6651e-05, 'epoch': 0.49, 'throughput': 109.50}
+[INFO|2025-09-14 12:15:12] logging.py:143 >> {'loss': 1.6392, 'learning_rate': 4.4834e-05, 'epoch': 0.61, 'throughput': 109.91}
+[INFO|2025-09-14 12:16:01] logging.py:143 >> {'loss': 1.6999, 'learning_rate': 4.2678e-05, 'epoch': 0.73, 'throughput': 110.16}
+[INFO|2025-09-14 12:16:51] logging.py:143 >> {'loss': 1.6901, 'learning_rate': 4.0219e-05, 'epoch': 0.86, 'throughput': 110.51}
+[INFO|2025-09-14 12:17:39] logging.py:143 >> {'loss': 1.5097, 'learning_rate': 3.7500e-05, 'epoch': 0.98, 'throughput': 110.69}
+[INFO|2025-09-14 12:18:35] logging.py:143 >> {'loss': 1.7223, 'learning_rate': 3.4567e-05, 'epoch': 1.12, 'throughput': 110.92}
+[INFO|2025-09-14 12:19:24] logging.py:143 >> {'loss': 1.5849, 'learning_rate': 3.1470e-05, 'epoch': 1.24, 'throughput': 110.95}
+[INFO|2025-09-14 12:20:13] logging.py:143 >> {'loss': 1.4615, 'learning_rate': 2.8263e-05, 'epoch': 1.37, 'throughput': 110.87}
+[INFO|2025-09-14 12:21:04] logging.py:143 >> {'loss': 1.4884, 'learning_rate': 2.5000e-05, 'epoch': 1.49, 'throughput': 110.88}
+[INFO|2025-09-14 12:21:53] logging.py:143 >> {'loss': 1.4309, 'learning_rate': 2.1737e-05, 'epoch': 1.61, 'throughput': 110.85}
+[INFO|2025-09-14 12:22:45] logging.py:143 >> {'loss': 1.4167, 'learning_rate': 1.8530e-05, 'epoch': 1.73, 'throughput': 110.81}
+[INFO|2025-09-14 12:23:34] logging.py:143 >> {'loss': 1.4578, 'learning_rate': 1.5433e-05, 'epoch': 1.86, 'throughput': 110.91}
+[INFO|2025-09-14 12:24:25] logging.py:143 >> {'loss': 1.4411, 'learning_rate': 1.2500e-05, 'epoch': 1.98, 'throughput': 110.92}
+[INFO|2025-09-14 12:25:22] logging.py:143 >> {'loss': 1.5387, 'learning_rate': 9.7810e-06, 'epoch': 2.12, 'throughput': 111.02}
+[INFO|2025-09-14 12:26:12] logging.py:143 >> {'loss': 1.3903, 'learning_rate': 7.3223e-06, 'epoch': 2.24, 'throughput': 111.03}
+[INFO|2025-09-14 12:27:01] logging.py:143 >> {'loss': 1.3854, 'learning_rate': 5.1662e-06, 'epoch': 2.37, 'throughput': 110.99}
+[INFO|2025-09-14 12:27:52] logging.py:143 >> {'loss': 1.4176, 'learning_rate': 3.3494e-06, 'epoch': 2.49, 'throughput': 111.07}
+[INFO|2025-09-14 12:27:52] trainer.py:3966 >> Saving model checkpoint to saves\ChatGLM3-6B-Base\lora\glm3_ysu_lora\checkpoint-100
+[INFO|2025-09-14 12:27:52] configuration_utils.py:697 >> loading configuration file D:\01Code\Project\Python\Orientation\ChatGLM\Model\chatglm3-6b-base\config.json
+[INFO|2025-09-14 12:27:52] configuration_utils.py:771 >> Model config ChatGLMConfig {
+  "add_bias_linear": false,
+  "add_qkv_bias": true,
+  "apply_query_key_layer_scaling": true,
+  "apply_residual_connection_post_layernorm": false,
+  "architectures": [
+    "ChatGLMModel"
+  ],
+  "attention_dropout": 0.0,
+  "attention_softmax_in_fp32": true,
+  "auto_map": {
+    "AutoConfig": "configuration_chatglm.ChatGLMConfig",
+    "AutoModel": "modeling_chatglm.ChatGLMForConditionalGeneration",
+    "AutoModelForCausalLM": "modeling_chatglm.ChatGLMForConditionalGeneration",
+    "AutoModelForSeq2SeqLM": "modeling_chatglm.ChatGLMForConditionalGeneration",
+    "AutoModelForSequenceClassification": "modeling_chatglm.ChatGLMForSequenceClassification"
+  },
+  "bias_dropout_fusion": true,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "ffn_hidden_size": 13696,
+  "fp32_residual_connection": false,
+  "hidden_dropout": 0.0,
+  "hidden_size": 4096,
+  "kv_channels": 128,
+  "layernorm_epsilon": 1e-05,
+  "model_type": "chatglm",
+  "multi_query_attention": true,
+  "multi_query_group_num": 2,
+  "num_attention_heads": 32,
+  "num_layers": 28,
+  "original_rope": true,
+  "pad_token_id": 0,
+  "padded_vocab_size": 65024,
+  "post_layer_norm": true,
+  "pre_seq_len": null,
+  "prefix_projection": false,
+  "quantization_bit": 0,
+  "rmsnorm": true,
+  "seq_length": 32768,
+  "tie_word_embeddings": false,
+  "torch_dtype": "float16",
+  "transformers_version": "4.50.0",
+  "use_cache": true,
+  "vocab_size": 65024
+}
+
+[INFO|2025-09-14 12:27:52] tokenization_utils_base.py:2510 >> tokenizer config file saved in saves\ChatGLM3-6B-Base\lora\glm3_ysu_lora\checkpoint-100\tokenizer_config.json
+[INFO|2025-09-14 12:27:52] tokenization_utils_base.py:2519 >> Special tokens file saved in saves\ChatGLM3-6B-Base\lora\glm3_ysu_lora\checkpoint-100\special_tokens_map.json
+[INFO|2025-09-14 12:28:42] logging.py:143 >> {'loss': 1.4108, 'learning_rate': 1.9030e-06, 'epoch': 2.61, 'throughput': 111.04}
+[INFO|2025-09-14 12:29:32] logging.py:143 >> {'loss': 1.3263, 'learning_rate': 8.5185e-07, 'epoch': 2.73, 'throughput': 111.07}
+[INFO|2025-09-14 12:30:21] logging.py:143 >> {'loss': 1.3891, 'learning_rate': 2.1388e-07, 'epoch': 2.86, 'throughput': 111.11}
+[INFO|2025-09-14 12:31:10] logging.py:143 >> {'loss': 1.4568, 'learning_rate': 0.0000e+00, 'epoch': 2.98, 'throughput': 111.18}
+[INFO|2025-09-14 12:31:10] trainer.py:3966 >> Saving model checkpoint to saves\ChatGLM3-6B-Base\lora\glm3_ysu_lora\checkpoint-120
+[INFO|2025-09-14 12:31:10] configuration_utils.py:697 >> loading configuration file D:\01Code\Project\Python\Orientation\ChatGLM\Model\chatglm3-6b-base\config.json
+[INFO|2025-09-14 12:31:10] configuration_utils.py:771 >> Model config ChatGLMConfig {
+  "add_bias_linear": false,
+  "add_qkv_bias": true,
+  "apply_query_key_layer_scaling": true,
+  "apply_residual_connection_post_layernorm": false,
+  "architectures": [
+    "ChatGLMModel"
+  ],
+  "attention_dropout": 0.0,
+  "attention_softmax_in_fp32": true,
+  "auto_map": {
+    "AutoConfig": "configuration_chatglm.ChatGLMConfig",
+    "AutoModel": "modeling_chatglm.ChatGLMForConditionalGeneration",
+    "AutoModelForCausalLM": "modeling_chatglm.ChatGLMForConditionalGeneration",
+    "AutoModelForSeq2SeqLM": "modeling_chatglm.ChatGLMForConditionalGeneration",
+    "AutoModelForSequenceClassification": "modeling_chatglm.ChatGLMForSequenceClassification"
+  },
+  "bias_dropout_fusion": true,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "ffn_hidden_size": 13696,
+  "fp32_residual_connection": false,
+  "hidden_dropout": 0.0,
+  "hidden_size": 4096,
+  "kv_channels": 128,
+  "layernorm_epsilon": 1e-05,
+  "model_type": "chatglm",
+  "multi_query_attention": true,
+  "multi_query_group_num": 2,
+  "num_attention_heads": 32,
+  "num_layers": 28,
+  "original_rope": true,
+  "pad_token_id": 0,
+  "padded_vocab_size": 65024,
+  "post_layer_norm": true,
+  "pre_seq_len": null,
+  "prefix_projection": false,
+  "quantization_bit": 0,
+  "rmsnorm": true,
+  "seq_length": 32768,
+  "tie_word_embeddings": false,
+  "torch_dtype": "float16",
+  "transformers_version": "4.50.0",
+  "use_cache": true,
+  "vocab_size": 65024
+}
+
+[INFO|2025-09-14 12:31:10] tokenization_utils_base.py:2510 >> tokenizer config file saved in saves\ChatGLM3-6B-Base\lora\glm3_ysu_lora\checkpoint-120\tokenizer_config.json
+[INFO|2025-09-14 12:31:10] tokenization_utils_base.py:2519 >> Special tokens file saved in saves\ChatGLM3-6B-Base\lora\glm3_ysu_lora\checkpoint-120\special_tokens_map.json
+[INFO|2025-09-14 12:31:10] trainer.py:2665 >> 
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+[INFO|2025-09-14 12:31:10] trainer.py:3966 >> Saving model checkpoint to saves\ChatGLM3-6B-Base\lora\glm3_ysu_lora
+[INFO|2025-09-14 12:31:10] configuration_utils.py:697 >> loading configuration file D:\01Code\Project\Python\Orientation\ChatGLM\Model\chatglm3-6b-base\config.json
+[INFO|2025-09-14 12:31:10] configuration_utils.py:771 >> Model config ChatGLMConfig {
+  "add_bias_linear": false,
+  "add_qkv_bias": true,
+  "apply_query_key_layer_scaling": true,
+  "apply_residual_connection_post_layernorm": false,
+  "architectures": [
+    "ChatGLMModel"
+  ],
+  "attention_dropout": 0.0,
+  "attention_softmax_in_fp32": true,
+  "auto_map": {
+    "AutoConfig": "configuration_chatglm.ChatGLMConfig",
+    "AutoModel": "modeling_chatglm.ChatGLMForConditionalGeneration",
+    "AutoModelForCausalLM": "modeling_chatglm.ChatGLMForConditionalGeneration",
+    "AutoModelForSeq2SeqLM": "modeling_chatglm.ChatGLMForConditionalGeneration",
+    "AutoModelForSequenceClassification": "modeling_chatglm.ChatGLMForSequenceClassification"
+  },
+  "bias_dropout_fusion": true,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "ffn_hidden_size": 13696,
+  "fp32_residual_connection": false,
+  "hidden_dropout": 0.0,
+  "hidden_size": 4096,
+  "kv_channels": 128,
+  "layernorm_epsilon": 1e-05,
+  "model_type": "chatglm",
+  "multi_query_attention": true,
+  "multi_query_group_num": 2,
+  "num_attention_heads": 32,
+  "num_layers": 28,
+  "original_rope": true,
+  "pad_token_id": 0,
+  "padded_vocab_size": 65024,
+  "post_layer_norm": true,
+  "pre_seq_len": null,
+  "prefix_projection": false,
+  "quantization_bit": 0,
+  "rmsnorm": true,
+  "seq_length": 32768,
+  "tie_word_embeddings": false,
+  "torch_dtype": "float16",
+  "transformers_version": "4.50.0",
+  "use_cache": true,
+  "vocab_size": 65024
+}
+
+[INFO|2025-09-14 12:31:10] tokenization_utils_base.py:2510 >> tokenizer config file saved in saves\ChatGLM3-6B-Base\lora\glm3_ysu_lora\tokenizer_config.json
+[INFO|2025-09-14 12:31:10] tokenization_utils_base.py:2519 >> Special tokens file saved in saves\ChatGLM3-6B-Base\lora\glm3_ysu_lora\special_tokens_map.json
+[WARNING|2025-09-14 12:31:10] logging.py:148 >> No metric eval_loss to plot.
+[WARNING|2025-09-14 12:31:10] logging.py:148 >> No metric eval_accuracy to plot.
+[INFO|2025-09-14 12:31:10] modelcard.py:449 >> Dropping the following result as it does not have all the necessary fields:
+{'task': {'name': 'Causal Language Modeling', 'type': 'text-generation'}}

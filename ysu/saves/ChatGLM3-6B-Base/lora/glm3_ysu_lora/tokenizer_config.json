@@ -1,0 +1,22 @@
+{
+  "added_tokens_decoder": {},
+  "auto_map": {
+    "AutoTokenizer": [
+      "tokenization_chatglm.ChatGLMTokenizer",
+      null
+    ]
+  },
+  "chat_template": "{% if messages[0]['role'] == 'system' %}{% set loop_messages = messages[1:] %}{% set system_message = messages[0]['content'] %}{% else %}{% set loop_messages = messages %}{% endif %}{% if system_message is defined %}{{ 'System: ' + system_message + '</s>' + '\n' }}{% endif %}{% for message in loop_messages %}{% set content = message['content'] %}{% if message['role'] == 'user' %}{{ 'Human: ' + content + '</s>' + '\nAssistant:' }}{% elif message['role'] == 'assistant' %}{{ content + '</s>' + '\n' }}{% endif %}{% endfor %}",
+  "clean_up_tokenization_spaces": false,
+  "do_lower_case": false,
+  "encode_special_tokens": false,
+  "eos_token": "</s>",
+  "extra_special_tokens": {},
+  "model_max_length": 1000000000000000019884624838656,
+  "pad_token": "<unk>",
+  "padding_side": "right",
+  "remove_space": false,
+  "split_special_tokens": false,
+  "tokenizer_class": "ChatGLMTokenizer",
+  "unk_token": "<unk>"
+}

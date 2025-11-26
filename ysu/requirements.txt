@@ -1,0 +1,26 @@
+# 核心框架与依赖
+# 注意：llama-factory需要以可编辑模式安装，详见README.md
+# pip install -e .[full]
+llama-factory
+
+# 深度学习与机器学习库
+# PyTorch需要根据CUDA版本从官方源单独安装，详见README.md
+torch==2.5.1
+torchvision
+torchaudio
+transformers==4.50.0
+accelerate<=1.7.0
+bitsandbytes
+datasets
+peft
+
+# 数据处理与评估
+pandas
+numpy
+jieba
+rouge_chinese
+nltk
+
+# 爬虫相关
+requests
+beautifulsoup4
