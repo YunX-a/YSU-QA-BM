@@ -1,0 +1,23 @@
+# --- 忽略模型权重 (太大了) ---
+ZhipuAI/
+ysu_merged_model/
+ysu_finetuned_model/
+FTModels/
+
+# --- 忽略虚拟环境 ---
+vllm_env/
+__pycache__/
+*.pyc
+
+# --- 忽略 LLaMA-Factory 产生的临时文件 ---
+output/
+runs/
+cache/
+*.cache
+
+# --- 忽略系统文件 ---
+.DS_Store
+.ipynb_checkpoints/
+
+# --- 忽略 AutoDL 系统文件夹 ---
+.autodl/
