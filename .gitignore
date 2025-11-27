@@ -21,3 +21,7 @@ cache/
 
 # --- 忽略 AutoDL 系统文件夹 ---
 .autodl/
+
+# --- 忽略 V2 版本的大模型权重 (新增) ---
+ysu_finetuned_model_v2/
+ysu_merged_model_v2/
